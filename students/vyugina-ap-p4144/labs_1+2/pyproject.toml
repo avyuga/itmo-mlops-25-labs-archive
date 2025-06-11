@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "itmo-mlops"
+version = "0.1.0"
+description = ""
+authors = ["aiwannafly <me@aiwannafly.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+numpy = "^2.2.3"
+pandas = "^2.2.3"
+matplotlib = "^3.10.1"
+seaborn = "^0.13.2"
+scikit-learn = "^1.6.1"
+fastembed = "^0.6.0"
+pyarrow = "^19.0.1"
+ipykernel = "^6.29.5"
+pydantic = "^2.10.6"
+pydantic-settings = "^2.8.1"
+qdrant-client = "^1.13.2"
+apache-airflow = "^2.10.5"
+structlog = "^25.1.0"
+graphviz = "^0.20.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.9.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

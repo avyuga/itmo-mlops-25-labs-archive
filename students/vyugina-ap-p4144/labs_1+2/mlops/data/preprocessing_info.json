@@ -1,0 +1,72 @@
+{
+  "neighbourhood_group": {
+    "values": [
+      "Bronx",
+      "Brooklyn",
+      "Manhattan",
+      "Queens",
+      "Staten Island"
+    ]
+  },
+  "neighbourhood": {
+    "values": [
+      "Astoria",
+      "Bedford-Stuyvesant",
+      "Bushwick",
+      "Chelsea",
+      "Crown Heights",
+      "East Harlem",
+      "East Village",
+      "Financial District",
+      "Greenpoint",
+      "Harlem",
+      "Hell's Kitchen",
+      "Lower East Side",
+      "Midtown",
+      "Upper East Side",
+      "Upper West Side",
+      "Washington Heights",
+      "West Village",
+      "Williamsburg",
+      "small discricts in Bronx",
+      "small discricts in Brooklyn",
+      "small discricts in Manhattan",
+      "small discricts in Queens",
+      "small discricts in Staten Island"
+    ]
+  },
+  "room_type": {
+    "values": [
+      "Entire home/apt",
+      "Private room",
+      "Shared room"
+    ]
+  },
+  "review_recency": {
+    "values": [
+      "Last month",
+      "Last quarter",
+      "Last year",
+      "No reviews",
+      "Over a year ago"
+    ]
+  },
+  "latitude": {
+    "scaler": {
+      "max": 40.91306,
+      "min": 40.49979
+    }
+  },
+  "longitude": {
+    "scaler": {
+      "max": -73.71299,
+      "min": -74.24442
+    }
+  },
+  "number_of_reviews": {
+    "scaler": {
+      "max": 629.0,
+      "min": 0.0
+    }
+  }
+}
